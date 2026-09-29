@@ -1,0 +1,43 @@
+/* Type. One family: Source Sans Pro, shipped as Source Sans 3.
+   Two working weights: 400 Regular and 700 Bold (600 available for dense UI). */
+:root{
+  --font-sans:"Source Sans 3","Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  /* No separate mono face in the brand. Eyebrows and labels are the same family,
+     tracked out. --font-mono is an alias so legacy references keep working. */
+  --font-mono:var(--font-sans);
+
+  --fw-regular:400; /* @kind font */
+  --fw-semibold:600; /* @kind font */
+  --fw-bold:700; /* @kind font */
+
+  --tracking-tight:-0.022em; /* @kind font */
+  --tracking-normal:0; /* @kind font */
+  --tracking-wide:0.08em; /* @kind font */
+  --tracking-label:0.22em; /* @kind font */
+  --tracking-very-loose:0.25em; /* @kind font */
+
+  --lh-tight:1.05; /* @kind font */
+  --lh-snug:1.2; /* @kind font */
+  --lh-normal:1.45; /* @kind font */
+  --lh-loose:1.6; /* @kind font */
+
+  /* Web scale */
+  --fs-display:clamp(40px,5.6vw,76px); /* @kind font */
+  --fs-h1:48px; /* @kind font */
+  --fs-h2:clamp(32px,4vw,52px); /* @kind font */
+  --fs-h3:28px; /* @kind font */
+  --fs-h4:18px; /* @kind font */
+  --fs-lede:19px; /* @kind font */
+  --fs-body-lg:24px; /* @kind font */
+  --fs-body:16px; /* @kind font */
+  --fs-body-sm:14px; /* @kind font */
+  --fs-eyebrow:11px; /* @kind font */
+  --fs-caption:12.5px; /* @kind font */
+
+  /* Deck scale, 1920x1080 frame */
+  --fs-slide-title:132px; /* @kind font */
+  --fs-slide-h2:72px; /* @kind font */
+  --fs-slide-body:24px; /* @kind font */
+  --fs-slide-eyebrow:22px; /* @kind font */
+  --fs-slide-metric:180px; /* @kind font */
+}

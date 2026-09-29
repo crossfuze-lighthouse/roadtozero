@@ -1,0 +1,64 @@
+/* Crossfuze color system. Fixed brand palette, never invent new hues.
+   Source: brand "Design Elements / Color Scheme" guide. */
+:root{
+  /* ---- Base palette ---- */
+  --cf-midnight-blue:#040E3D;
+  --cf-bright-green:#8FFFDB;
+  --cf-bright-blue:#71F1F7;
+  --cf-utility-blue:#2CB0CD;
+  --cf-purple:#6400EC;
+  --cf-lavender:#C0A6FF;
+  --cf-callout-red:#F65275;
+  --cf-crisp-grey:#F2F2F4;
+  --cf-white:#FFFFFF;
+  --cf-black:#000000;
+
+  /* Midnight alpha tints */
+  --cf-midnight-90:rgba(4,14,61,0.90);
+  --cf-midnight-70:rgba(4,14,61,0.70);
+  --cf-midnight-50:rgba(4,14,61,0.50);
+  --cf-midnight-20:rgba(4,14,61,0.20);
+  --cf-midnight-10:rgba(4,14,61,0.10);
+  --cf-midnight-05:rgba(4,14,61,0.05);
+
+  /* ---- Semantic: foreground ---- */
+  --fg-primary:var(--cf-midnight-blue);
+  --fg-secondary:var(--cf-midnight-70);
+  --fg-tertiary:var(--cf-midnight-50);
+  --fg-on-dark:var(--cf-white);
+  --fg-on-dark-soft:rgba(255,255,255,0.72);
+  --fg-on-dark-muted:rgba(255,255,255,0.55);
+  --fg-accent:var(--cf-purple);
+  --fg-link:var(--cf-utility-blue);
+  --fg-danger:var(--cf-callout-red);
+
+  /* ---- Semantic: background ---- */
+  --bg-page:var(--cf-white);
+  --bg-surface:var(--cf-white);
+  --bg-subtle:var(--cf-crisp-grey);
+  --bg-inverse:var(--cf-midnight-blue);
+  --bg-inverse-2:#0A1855;
+  --bg-surface-on-dark:rgba(255,255,255,0.04);
+  --bg-surface-on-dark-hover:rgba(255,255,255,0.06);
+
+  /* ---- Semantic: borders ---- */
+  --border-subtle:var(--cf-midnight-10);
+  --border-strong:var(--cf-midnight-20);
+  --border-on-dark:rgba(255,255,255,0.12);
+
+  /* ---- States ---- */
+  --state-hover-overlay:var(--cf-midnight-05);
+  --state-press-overlay:var(--cf-midnight-10);
+  --state-hover-on-dark:rgba(255,255,255,0.08);
+  --focus-ring:var(--cf-utility-blue);
+  --cf-bright-green-hover:#B3FFE8;
+
+  /* ---- Brand gradients ---- */
+  --gradient-vibrant:linear-gradient(90deg,#8FFFDB 0%,#71F1F7 100%); /* @kind color */
+  --gradient-calm:linear-gradient(90deg,#2CB0CD 0%,#71F1F7 100%); /* @kind color */
+  --gradient-storm:radial-gradient(ellipse 80% 90% at 50% 40%,#6400EC 0%,#2CB0CD 30%,#0A1855 70%,#040E3D 100%); /* @kind color */
+  --gradient-storm-linear:linear-gradient(135deg,#040E3D 0%,#6400EC 55%,#2CB0CD 100%); /* @kind color */
+  --gradient-midnight-wash:linear-gradient(180deg,#040E3D 0%,#0A1855 100%); /* @kind color */
+  /* Ambient hero glow, layered over Midnight. Signature of every dark surface. */
+  --glow-hero:radial-gradient(ellipse 55% 60% at 100% 30%,rgba(44,176,205,0.30) 0%,transparent 60%),radial-gradient(ellipse 40% 50% at 0% 100%,rgba(100,0,236,0.22) 0%,transparent 65%); /* @kind color */
+}

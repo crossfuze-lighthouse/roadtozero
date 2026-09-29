@@ -1,0 +1,8 @@
+/* Motion. Quick out, soft settle. No bounce, no spring, no scale pop. */
+:root{
+  --ease-standard:cubic-bezier(0.2,0,0,1); /* @kind other */
+  --ease-emphasized:cubic-bezier(0.4,0,0.2,1); /* @kind other */
+  --dur-fast:120ms; /* @kind other */
+  --dur-base:200ms; /* @kind other */
+  --dur-slow:360ms; /* @kind other */
+}

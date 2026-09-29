@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crossfuze-lighthouse.github.io/roadtozero/sitemap.xml

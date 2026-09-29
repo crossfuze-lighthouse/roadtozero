@@ -1,0 +1,29 @@
+/* 4pt base grid, plus radii. */
+:root{
+  --sp-0:0; /* @kind spacing */
+  --sp-1:4px; /* @kind spacing */
+  --sp-2:8px; /* @kind spacing */
+  --sp-3:12px; /* @kind spacing */
+  --sp-4:16px; /* @kind spacing */
+  --sp-5:24px; /* @kind spacing */
+  --sp-6:32px; /* @kind spacing */
+  --sp-7:48px; /* @kind spacing */
+  --sp-8:64px; /* @kind spacing */
+  --sp-9:96px; /* @kind spacing */
+  --sp-10:128px; /* @kind spacing */
+
+  /* Layout */
+  --layout-max:1280px; /* @kind spacing */
+  --layout-narrow:920px; /* @kind spacing */
+  --layout-gutter:32px; /* @kind spacing */
+  --section-y:88px; /* @kind spacing */
+
+  /* Radii */
+  --r-sm:4px; /* @kind radius */
+  --r-btn:6px; /* @kind radius */
+  --r-md:8px; /* @kind radius */
+  --r-lg:12px; /* @kind radius */
+  --r-xl:16px; /* @kind radius */
+  --r-2xl:24px; /* @kind radius */
+  --r-pill:999px; /* @kind radius */
+}
