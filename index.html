@@ -1180,6 +1180,10 @@ strong{color:var(--cf-midnight-blue);font-weight:700}
   body{padding-left:254px}
 }
 @media screen and (max-width:1339px){.tocrail{display:none}}
+a.rx-chip{text-decoration:none;color:inherit;cursor:pointer;position:relative;z-index:4;pointer-events:auto}
+#autonomous-enterprise-journey a.rx-chip.b{box-shadow:inset 2px 0 0 var(--cf-bright-blue);border:1px solid rgba(113,241,247,.28)}
+#autonomous-enterprise-journey a.rx-chip.b .ct{color:var(--cf-bright-blue);text-decoration:underline;text-decoration-color:rgba(113,241,247,.5);text-underline-offset:3px}
+@media screen{#autonomous-enterprise-journey a.rx-chip.b:hover{border-color:var(--cf-bright-blue);background:rgba(113,241,247,.08)}}
 @media print{.tocrail{display:none!important}
   .brf-h1 .accent{background:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;-webkit-text-fill-color:#8FFFDB!important;color:#8FFFDB!important}
   .grad{background:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;-webkit-text-fill-color:#2CB0CD!important;color:#2CB0CD!important}
@@ -4300,7 +4304,7 @@ strong{color:var(--cf-midnight-blue);font-weight:700}
         enterprise.</p>
       <div class="rx-chips">
         <div class="rx-chip a"><span class="ck">Track A</span><span class="cn">Autonomous IT</span><span class="ct">You are here</span></div>
-        <div class="rx-chip b"><span class="ck">Track B</span><span class="cn">Business Reinvention</span><span class="ct">Separate guide</span></div>
+        <a class="rx-chip b" href="https://www.crossfuze.com/campaigns/the-servicenow-ai-readiness-gap-a-practical-guide" target="_blank" rel="noopener noreferrer"><span class="ck">Track B</span><span class="cn">Business Reinvention</span><span class="ct">Separate guide →</span></a>
       </div>
     </div>
   </div>
